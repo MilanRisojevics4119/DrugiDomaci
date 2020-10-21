@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="izgled.css">
+<style>
+
+table td,tr
+{
+    border-collapse: collapse;
+    border:2px solid green;
+    border-style: solid;
+    padding:0px auto;
+    0px auto;  
+    monospace;
+
+}
+#treca_kolona  
+        {
+            background-color: lightgreen;
+            color: red;
+            text-align: center;  
+            padding:0px auto;
+            0px auto;  
+            Arial;
+            font-style:helvetica;
+        }
+
+
+
+</style>
+<body>
+    <table border="2px" bordercolor="green" cellspacing="0" cellpading="0";>
+    <tr>
+        <td style="text-align: center;" bgcolor="cyan">
+            <b>Ime</b>
+        </td>
+        <td style="text-align: right;" bgcolor="yellow">
+            <b>Prezime</b>
+        </td>
+        <td style="text-align: left;" bgcolor="lightgreen">
+            <b>JMBG</b>
+        </td>
+    </tr>
+<tr>
+    <td bgcolor="cyan">Marko</td>
+    <td bgcolor="yellow">Markovic</td>
+    <td bgcolor="lightgreen">130599522311</td>
+</tr>
+
+<tr id="treca_kolona">
+    <td>Darko</td>
+    <td style="text-align: right;">Petrovic</td>
+    <td>130599535621</td>
+</tr>
+
+
+<tr>
+    <td style="text-align: center;" bgcolor="cyan">Stefan</td>
+    <td style="text-align: right;" bgcolor="yellow">Milicic</td>
+    <td bgcolor="lightgreen">130599365321</td>
+</tr>
+
+
+</tr>
+
+</table>
+<br>
+
+    <div>
+    <form  class ="forma" >
+        
+    <label for="name">Ime</label>
+    <input type="text" name="ime" &nbsp placeholder="Unesite vase ime" minlength="3"> <br>
+    <label for="prezime">Prezime</label>
+    <input type="text" name="prezime" placeholder="Unesite vase prezime" minlength="3"><br>
+    <label for="jmbg">JMBG</label>
+    <input type="text" name="jmbg" placeholder="Unesite vas JMBG" minlength="1"><br>
+    <input type="submit" value="Posalji formu"enabled>
+    </form>
+</div>
+</body>
+</html>
+
+
+
